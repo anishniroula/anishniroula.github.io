@@ -16,12 +16,24 @@ canvas {
 }
 #me {
   position: absolute;
-  top: 50%;
-  left: 65%;
+  top: 44%;
+  left: 66%;
   height: 100%;
   max-height: 656px;
   transform: translate(-50%, -50%);
 }
+
+@media only screen and (max-width: 768px) {
+  #brief{
+    top: 75%;
+  }
+  #me{
+    top: 45%;
+    left: 65%;
+    max-height: 555px;
+  }
+}
+
 #container {
   position: absolute;
   top: 0;
